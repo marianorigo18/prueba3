@@ -5,97 +5,213 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Document</title>
+    <title>electricidad-centro | Home</title>
 </head>
 <body>
     <!--start Navbar-->
-    <nav>
-        <div class="container my-5">
-            <div class="row d-flex">
-                <div class="col">
-                    <a href="index.html" class="container__logo">
-                        <img src="./assets/logo/logo-ele-centro-three.jpg" alt="">
-                    </a>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg pt-2">
+            <div class="container-fluid">
+                <a href="index.html" class="container__logo">
+                    <img src="./assets/logo/logo-ele-centro-three.jpg" alt="">
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  <a class="nav-link active" href="#">Contact</a>
                 </div>
+              </div>
             </div>
-        </div>
-    </nav>
+          </nav>
+    </div>
     <!--End Navbar-->
-    <!--Start Header-->
-    <header class="bg-dark text-light">
+    <main>
+            <!--Start Header-->
+    <header class="text-light mt-5 mb-2 header">
         <div class="container py-5">
             <div class="row">
-                <div class="col">
+                <div class="col-sm-6">
                     <h3>SOMOS LIDERES EN MATERIALES ELECTRICOS E ILUMINACION.</h3>
                     <p>"PRODUCTOS DE PRIMERA CALIDAD PARA LA INDUSTRIA Y EL HOGAR"</p>
-                    <a href="#"><button type="button" class="btn btn-success">Contact</button></a>
+                    <a href="#"><button type="button" class="btn btn-dark border border-success">Contact</button></a>
                 </div>
-                <div class="col">
-                    <a href="index.html" class="container__logo">
-                        <img src="./assets/logo/solo-logo-png.png" alt="">
+                <div class="col-sm-6">
+                    <a href="index.html" class="container__logo mx-auto">
+                        <img class="img-fluid" src="./assets/logo/solo-logo-png.png" alt="">
                     </a>
                 </div>
             </div>
         </div>
     </header>
     <!--End Header-->
-    <!--Start Topics Cards-->
     <div class="container my-5">
         <div class="row">
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="card">
-                    <img src="./assets/topics/aereo.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="col my-2">
+                <h3>CATEGORIAS</h3>
+            </div>
+        </div>
+    </div>
+    <!--Start Topics Cards-->
+    <div class="container">
+        <div class="cards">
+            <a href="./pages/industria.html" class="card text-decoration-none text-dark mb-2">
+                <div class="row">
+                    <div class="col-6">
+                        <img class="img-fluid" src="./assets/topics-two/industria.jpg" alt="">
+                    </div>
+                    <div class="col-6">
+                        <div class="row">
+                           <div class="col-6">
+                            <img class="img-fluid" src="./assets/industria/arranque-suave.jpg" alt="">
+                           </div>
+                           <div class="col">
+                            <img class="img-fluid" src="./assets/industria/motores.jpg" alt="">
+                           </div> 
+                        </div>
+                        <div class="row h-50 d-flex justify-content-center align-items-center">
+                            <div class="col">
+                                <div>
+                                    <h2 class="text-center fw-light">Industria</h2>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="card">
-                    <img src="./assets/topics/conductoresfour.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+            </a>
+            <a href="./pages/iluminacion.html" class="card text-decoration-none text-dark mb-2">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="row">
+                           <div class="col-6">
+                            <img class="img-fluid" src="./assets/iluminacion/bidireccionales.jpg" alt="">
+                           </div>
+                           <div class="col">
+                            <img class="img-fluid" src="./assets/iluminacion/lamparas-vintage.jpg" alt="">
+                           </div> 
+                        </div>
+                        <div class="row h-50 d-flex justify-content-center align-items-center">
+                            <div class="col">
+                                <div>
+                                    <h2 class="text-center fw-light">Lamparas</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <img class="img-fluid" src="./assets/topics-two/guirnaldas.jpg" alt="">
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="card">
-                    <img src="./assets/topics/emergencia.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+            </a>
+            <a href="#" class="card text-decoration-none text-dark mb-2">
+                <div class="row">
+                    <div class="col-6">
+                        <img class="img-fluid" src="./assets/topics-two/cables.jpg" alt="">
+                    </div>
+                    <div class="col-6">
+                        <div class="row">
+                           <div class="col-6">
+                            <img class="img-fluid" src="./assets/conductores/preensamblado.jpg" alt="">
+                           </div>
+                           <div class="col">
+                            <img class="img-fluid" src="./assets/conductores/mallado.jpg" alt="">
+                           </div> 
+                        </div>
+                        <div class="row h-50 d-flex justify-content-center align-items-center">
+                            <div class="col">
+                                <div>
+                                    <h2 class="text-center fw-light">conductores</h2>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="card">
-                    <img src="./assets/topics/iluminacion.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+            </a>
+            <a href="#" class="card text-decoration-none text-dark mb-2">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="row">
+                           <div class="col-6">
+                            <img class="img-fluid" src="./assets/armados/bauhaus-dos-tv.jpg" alt="">
+                           </div>
+                           <div class="col">
+                            <img class="img-fluid" src="./assets/armados/bauhaus-red-2p-1t.jpg" alt="">
+                           </div> 
+                        </div>
+                        <div class="row h-50 d-flex justify-content-center align-items-center">
+                            <div class="col">
+                                <div>
+                                    <h2 class="text-center fw-light">Tomacorrientes</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <img class="img-fluid" src="./assets/topics/conjuntos.jpg" alt="">
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 my-5">
-                <div class="card">
-                    <img src="./assets/topics/instrumentos.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+            </a>
+            <a href="#" class="card text-decoration-none text-dark mb-2">
+                <div class="row">
+                    <div class="col-6">
+                        <img class="img-fluid" src="./assets/topics-two/herramientas.jpg" alt="">
                     </div>
-                  </div>
+                    <div class="col-6">
+                        <div class="row">
+                           <div class="col-6">
+                            <img class="img-fluid" src="./assets/herramientas/stanley/alicate-oblicuo-stanley.jpg" alt="">
+                           </div>
+                           <div class="col">
+                            <img class="img-fluid" src="./assets/herramientas/her-elec/taladro-inalambrico-stanley-12v.jpg" alt="">
+                           </div> 
+                        </div>
+                        <div class="row h-50 d-flex justify-content-center align-items-center">
+                            <div class="col">
+                                <div>
+                                    <h2 class="text-center fw-light">Herramientas</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+        <!--End Topics Cards-->
+    </main>
+    <footer class="bg-dark">
+        <div class="container">
+            <div class="row text-light text-center">
+                <div class="col-sm-6">
+                    <h4 class="py-5">Contenido</h4>
+                    <ul>
+                        <li><a class="text-light" href="#">Industria</a></li>
+                        <li><a class="text-light" href="./pages/iluminacion.html">Iluminacion</a></li>
+                        <li><a class="text-light" href="#">Conductores</a></li>
+                        <li><a class="text-light" href="#">Tomacorrientes</a></li>
+                        <li><a class="text-light" href="#">Herramientas</a></li>
+                        <li><a class="text-light" href="#">Medicion</a></li>
+                        <li><a class="text-light" href="#">Emergencia</a></li>
+                        <li><a class="text-light" href="#">Terminales</a></li>
+                        <li><a class="text-light" href="#">Normalizados</a></li>
+                        <li><a class="text-light" href="#">Morceteria</a></li>
+                        <li><a class="text-light" href="#">Aereo</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <h4 class="py-5">Contact</h4>
+                    <ul>
+                        <li>info@electricidad-centro.com.ar</li>
+                        <li>3755-500004</li>
+                        <li>3755-421425</li>
+                        <li>av. beltrame 1493 - obera-misiones</li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <!--End Topics Cards-->
-        
+    </footer>        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
         <script src="./js/main.js" type="module"></script>
     </body>

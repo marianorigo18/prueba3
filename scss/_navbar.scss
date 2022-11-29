@@ -1,7 +1,23 @@
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
 .container__logo{
     display: block;
     width: 200px;
 }
 .container__logo img{
     width: 100%;
+}
+.card{
+    border: none;
+    transition: .3s;
+}
+.card img{
+    border-radius: 1px;
+}
+.card:hover{
+    scale: 1.02;
 }

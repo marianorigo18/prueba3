@@ -8384,9 +8384,42 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+a {
+  text-decoration: none; }
+
+li {
+  list-style-type: none; }
+
 .container__logo {
   display: block;
   width: 200px; }
 
 .container__logo img {
   width: 100%; }
+
+.card {
+  border: none;
+  transition: .3s; }
+
+.card img {
+  border-radius: 1px; }
+
+.card:hover {
+  scale: 1.02; }
+
+.header {
+  background-color: #151515; }
+
+.container-topic {
+  max-width: 1000px; }
+
+.max__cmil {
+  max-width: 1000px; }
+
+.card-product {
+  border: none;
+  border-radius: 0;
+  transition: .3s; }
+
+.card-product:hover {
+  scale: 1.05; }
